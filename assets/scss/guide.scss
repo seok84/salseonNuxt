@@ -1,0 +1,49 @@
+// guide header, footer
+.guide-header {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 2rem 0;
+    margin: 0 0 2rem;
+    background: #f1f1f1;
+    position: relative;
+}
+
+.guide-footer {
+    padding: 2rem 0;
+    font-size: 1.4rem;
+    background: #f1f1f1;
+    text-align: center;
+}
+
+.guide-tabs {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: .1rem solid #333;
+    margin: 0 0 2rem; 
+
+    .tab-item {
+        display: inline-flex;
+        padding: 2rem 0;
+        font-size: 2rem;
+        text-decoration: none;
+        color: #333;
+        cursor: pointer;
+    }
+        
+}
+
+#guide-button-back {
+    display: inline-block;
+    font-size: 0;
+    text-decoration: none;
+    position: absolute;
+    top: calc(50% - 1.2rem);
+    left: 2rem;
+
+    &:after {
+        content: "\276E";
+        font-size: 2rem;
+    }
+    
+}

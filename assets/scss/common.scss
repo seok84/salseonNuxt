@@ -1,0 +1,17 @@
+@import "meyer-reset-scss";
+@import 'font';
+@import 'variables';
+@import 'placeholders';
+@import 'mixin';
+
+html,
+body {
+    font-family: $notoSans, $pretendard, "Apple SD Gothic Neo", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    font-size: 62.5%;
+}
+
+
+/* Ellipsis */
+.text-ellipsis { @include ellipsis; }
+.paragraph-ellipsis { @include ellipsis(3); }
+
